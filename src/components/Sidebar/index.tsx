@@ -1,5 +1,6 @@
 import { Search } from "lucide-react"
 import { Logo } from "./Logo"
+import Navigation from "../Navigation"
 
 const Sidebar = () => {
   return (
@@ -11,6 +12,7 @@ const Sidebar = () => {
           className="border-0 p-0 bg-transparent text-zinc-900 placeholder-zinc-500 flex-1"
           placeholder="Search" />
       </div>
+      <Navigation />
     </aside>
   )
 }
