@@ -1,6 +1,6 @@
 const UsedSpaceWidget = () => {
     return (
-        <div className="bg-violet-50 rounded-lg px-4 py-5 flex flex-col gap-4">
+        <div className="bg-violet-50 rounded-lg px-4 py-5 flex flex-col gap-4 mt-auto">
             <div className="space-y-1">
                 <span className="text-sm/5 font-medium text-violet-700">
                     Used space
