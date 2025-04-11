@@ -1,6 +1,7 @@
 import { Search } from "lucide-react"
 import { Logo } from "./Logo"
 import Navigation from "../Navigation"
+import UsedSpaceWidget from "../UsedSpaceWidget"
 
 const Sidebar = () => {
   return (
@@ -13,6 +14,7 @@ const Sidebar = () => {
           placeholder="Search" />
       </div>
       <Navigation />
+      <UsedSpaceWidget />
     </aside>
   )
 }
