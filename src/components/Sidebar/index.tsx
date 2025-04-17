@@ -1,7 +1,8 @@
 import { Search } from "lucide-react"
 import { Logo } from "./Logo"
 import Navigation from "../Navigation"
-import UsedSpaceWidget from "../UsedSpaceWidget"
+import UsedSpaceWidget from "./UsedSpaceWidget"
+import UserProfile from "./UserProfile"
 
 const Sidebar = () => {
   return (
@@ -15,6 +16,8 @@ const Sidebar = () => {
       </div>
       <Navigation />
       <UsedSpaceWidget />
+      <div className="h-px bg-zinc-200" />
+      <UserProfile name="Olivia Rhye" email="olivia@untitledui.com" />
     </aside>
   )
 }
