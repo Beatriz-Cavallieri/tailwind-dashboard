@@ -27,7 +27,7 @@ const PersonalInfoForm = () => {
         <div className="grid grid-cols-3">
           <label
             htmlFor="firstName"
-            className="text-sm text-zinc-700">
+            className="text-sm text-zinc-700 font-medium">
             Name
           </label>
           <div className="flex gap-2">
@@ -43,8 +43,9 @@ const PersonalInfoForm = () => {
 
         <div>
           <label
-            htmlFor="email">  Email addres
-            className="text-sm text-zinc-700"s
+            htmlFor="email"
+            className="text-sm text-zinc-700 font-medium">
+            Email address
           </label>
           <Input.Root>
             <Input.Control
@@ -58,7 +59,7 @@ const PersonalInfoForm = () => {
         <div>
           <label
             htmlFor="email"
-            className="text-sm text-zinc-700">
+            className="text-sm text-zinc-700 font-medium">
             Your photo
             <span >
               This will be displayed on your profile.
@@ -70,7 +71,7 @@ const PersonalInfoForm = () => {
         <div >
           <label
             htmlFor="role"
-            className="text-sm text-zinc-700">
+            className="text-sm text-zinc-700 font-medium">
             Role
           </label>
           <Input.Root>
@@ -81,7 +82,7 @@ const PersonalInfoForm = () => {
         <div>
           <label
             htmlFor="country"
-            className="text-sm text-zinc-700">
+            className="text-sm text-zinc-700 font-medium">
             Country
           </label>
           <div />
@@ -90,7 +91,7 @@ const PersonalInfoForm = () => {
         <div>
           <label
             htmlFor="timezone"
-            className="text-sm text-zinc-700">
+            className="text-sm text-zinc-700 font-medium">
             Timezone
           </label>
           <div />
@@ -99,7 +100,7 @@ const PersonalInfoForm = () => {
         <div >
           <label
             htmlFor="bio"
-            className="text-sm text-zinc-700">
+            className="text-sm text-zinc-700 font-medium">
             Bio
             <span>
               Write a short introduction.
@@ -111,7 +112,7 @@ const PersonalInfoForm = () => {
         <div>
           <label
             htmlFor="projects"
-            className="text-sm text-zinc-700">
+            className="text-sm text-zinc-700 font-medium">
             Portfolio projects
             <span>
               Share a few snippets of your work.
