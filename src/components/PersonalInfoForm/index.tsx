@@ -1,4 +1,4 @@
-import * as Input from '../Input'
+import * as Input from "../Input"
 
 const PersonalInfoForm = () => {
   return (
@@ -24,11 +24,13 @@ const PersonalInfoForm = () => {
       </div>
 
       <form id="settings" className="mt-6 flex w-full flex-col">
-        <div>
-          <label htmlFor="firstName">
+        <div className="grid grid-cols-3">
+          <label
+            htmlFor="firstName"
+            className="text-sm text-zinc-700">
             Name
           </label>
-          <div>
+          <div className="flex gap-2">
             <Input.Root>
               <Input.Control id="firstName" defaultValue="Olivia" />
             </Input.Root>
@@ -40,7 +42,9 @@ const PersonalInfoForm = () => {
         </div>
 
         <div>
-          <label htmlFor="email">  Email address
+          <label
+            htmlFor="email">  Email addres
+            className="text-sm text-zinc-700"s
           </label>
           <Input.Root>
             <Input.Control
@@ -52,7 +56,9 @@ const PersonalInfoForm = () => {
         </div>
 
         <div>
-          <label htmlFor="email">
+          <label
+            htmlFor="email"
+            className="text-sm text-zinc-700">
             Your photo
             <span >
               This will be displayed on your profile.
@@ -62,7 +68,9 @@ const PersonalInfoForm = () => {
         </div>
 
         <div >
-          <label htmlFor="role" >
+          <label
+            htmlFor="role"
+            className="text-sm text-zinc-700">
             Role
           </label>
           <Input.Root>
@@ -71,21 +79,27 @@ const PersonalInfoForm = () => {
         </div>
 
         <div>
-          <label htmlFor="country">
+          <label
+            htmlFor="country"
+            className="text-sm text-zinc-700">
             Country
           </label>
           <div />
         </div>
 
         <div>
-          <label htmlFor="timezone">
+          <label
+            htmlFor="timezone"
+            className="text-sm text-zinc-700">
             Timezone
           </label>
           <div />
         </div>
 
         <div >
-          <label htmlFor="bio" >
+          <label
+            htmlFor="bio"
+            className="text-sm text-zinc-700">
             Bio
             <span>
               Write a short introduction.
@@ -95,7 +109,9 @@ const PersonalInfoForm = () => {
         </div>
 
         <div>
-          <label htmlFor="projects">
+          <label
+            htmlFor="projects"
+            className="text-sm text-zinc-700">
             Portfolio projects
             <span>
               Share a few snippets of your work.
@@ -104,7 +120,7 @@ const PersonalInfoForm = () => {
           <div />
         </div>
 
-        <div className="flex">
+        <div className="flex gap-2">
           <button
             type="button"
             className="rounded-lg px-4 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50 border border-zinc-300"
