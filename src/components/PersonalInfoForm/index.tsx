@@ -13,17 +13,17 @@ const PersonalInfoForm = () => {
         <div className="flex gap-2 items-center">
           <button
             type="button"
-            className="rounded-lg px-4 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50 border border-zinc-300"
+            className="cursor-pointer rounded-lg px-4 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50 border border-zinc-300"
           >Cancel</button>
           <button
             type="submit"
             form="settings"
-            className="rounded-lg px-4 py-2 text-sm font-semibold text-white bg-violet-600 hover:bg-violet-700"
+            className="cursor-pointer rounded-lg px-4 py-2 text-sm font-semibold text-white bg-violet-600 hover:bg-violet-700"
           >Save</button>
         </div>
       </div>
 
-      <form id="settings" className="mt-6 flex w-full flex-col">
+      <form id="settings" className="mt-6 flex w-full flex-col gap-5 divide-y divide-zinc-200">
         <div className="grid grid-cols-3">
           <label
             htmlFor="firstName"
@@ -124,11 +124,11 @@ const PersonalInfoForm = () => {
         <div className="flex gap-2">
           <button
             type="button"
-            className="rounded-lg px-4 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50 border border-zinc-300"
+            className="cursor-pointer rounded-lg px-4 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50 border border-zinc-300"
           >Cancel</button>
           <button
             type="submit"
-            className="rounded-lg px-4 py-2 text-sm font-semibold text-white bg-violet-600 hover:bg-violet-700"
+            className="cursor-pointer rounded-lg px-4 py-2 text-sm font-semibold text-white bg-violet-600 hover:bg-violet-700"
           >
             Save
           </button>

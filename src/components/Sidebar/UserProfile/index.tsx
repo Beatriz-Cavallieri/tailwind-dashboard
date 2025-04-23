@@ -17,7 +17,7 @@ const UserProfile = ({ name, email }: UserProfileProps) => {
                     <span className="text-zinc-700 text-sm font-semibold truncate">{name}</span>
                     <span className="text-zinc-500 text-sm truncate">{email}</span>
                 </div>
-            <button type="button" className="text-zinc-500 p-2 hover:bg-zinc-50 rounded-md">
+            <button type="button" className="cursor-pointer text-zinc-500 p-2 hover:bg-zinc-50 rounded-md">
                 <LogOut className="w-5 h-5" />
             </button>
         </div>
