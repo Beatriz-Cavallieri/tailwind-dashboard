@@ -51,9 +51,9 @@ const SettingsTabs = () => {
           isSelected={currentTab === 'tab9'}
         />
         <Tab
-          value="tab9"
+          value="tab10"
           title="API"
-          isSelected={currentTab === 'tab9'} />
+          isSelected={currentTab === 'tab10'} />
       </Tabs.List>
 
     </Tabs.Root>
