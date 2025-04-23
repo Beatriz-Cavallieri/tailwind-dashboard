@@ -1,3 +1,4 @@
+import PersonalInfoForm from "./components/PersonalInfoForm"
 import SettingsTabs from "./components/SettingsTabs"
 import Sidebar from "./components/Sidebar"
 
@@ -10,6 +11,7 @@ const App = () => {
                 Settings
                 </h1>
                 <SettingsTabs></SettingsTabs>
+                <PersonalInfoForm/>
             </main>
 
         </div>
