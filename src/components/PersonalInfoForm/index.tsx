@@ -1,4 +1,4 @@
-import * as Input from "../Input"
+import * as Input from "../Form/Input"
 
 const PersonalInfoForm = () => {
   return (
@@ -39,7 +39,7 @@ const PersonalInfoForm = () => {
 
       <div className="pt-5 grid grid-cols-[minmax(7.5rem,_17.5rem)_minmax(25rem,_1fr)_minmax(0,_15rem)]">
         <label
-          htmlFor="email"
+          htmlFor="photo"
           className="text-sm text-zinc-700 font-medium">
           Your photo
           <span >

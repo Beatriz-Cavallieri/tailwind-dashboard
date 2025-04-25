@@ -3,7 +3,7 @@ import { Logo } from "./Logo"
 import Navigation from "../Navigation"
 import UsedSpaceWidget from "./UsedSpaceWidget"
 import UserProfile from "./UserProfile"
-import * as Input from '../Input'
+import * as Input from '../Form/Input'
 
 const Sidebar = () => {
   return (
