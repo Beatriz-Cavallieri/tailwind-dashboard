@@ -1,2 +1,18 @@
 @import "tailwindcss";
+@tailwind utilities;
+
+@theme {
+  --color-violet-25: '#fcfaff';
+  --color-error-25: #FFFBFA;
+  --color-error-50: #FEF3F2;
+  --color-error-100: #FEE4E2;
+  --color-error-200: #FECDCA;
+  --color-error-300: #FDA29B;
+  --color-error-400: #F97066;
+  --color-error-500: #F04438;
+  --color-error-600: #D92D20;
+  --color-error-700: #B42318;
+  --color-error-800: #912018;
+  --color-error-900: #7A271A;
+}
 
