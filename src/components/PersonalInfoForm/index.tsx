@@ -1,4 +1,5 @@
 import * as Input from "../Form/Input"
+import * as FileInput from '../Form/FileInput'
 
 const PersonalInfoForm = () => {
   return (
@@ -46,6 +47,11 @@ const PersonalInfoForm = () => {
             This will be displayed on your profile.
           </span>
         </label>
+        <FileInput.Root>
+          <FileInput.ImagePreview />
+          <FileInput.Trigger id='photo' />
+          <FileInput.Control id='photo' />
+        </FileInput.Root>
         <div />
       </div>
 
@@ -99,6 +105,10 @@ const PersonalInfoForm = () => {
             Share a few snippets of your work.
           </span>
         </label>
+        <FileInput.Root>
+          <FileInput.Trigger id='projects' />
+          <FileInput.Control id='projects' multiple />
+        </FileInput.Root>
         <div />
       </div>
 
